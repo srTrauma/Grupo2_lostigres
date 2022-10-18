@@ -1,9 +1,11 @@
 body{
+	font-family:sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #23242a;
+	
     }
     .box{
         position: relative;
@@ -12,8 +14,9 @@ body{
         background: #1c1c1c;
         border-radius: 8px;
         overflow: hidden;
+		left: 175%;
     }
-    .box::before{
+    .box::after{
         content: '';
         position: absolute;
         top: -50%;
@@ -25,7 +28,7 @@ body{
         transform-origin: bottom right;
         animation: animate 6s linear infinite;
     }
-    .box::after{
+    .box::before{
         content: '';
         position: absolute;
         top: -50%;
