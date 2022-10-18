@@ -30,7 +30,7 @@ body
     min-height: 100vh;
     background:var(--clr);
     font-family:sans-serif;
-    margin: 0cm;
+    margin: 0;
     padding: 0;
     text-decoration: none;
 }
@@ -71,14 +71,16 @@ body
 }
 #NavegacionBola ul li a #Texto
 {
+   
+    position: absolute;
     font-weight: 400;
     font-size: 0.75em;
     letter-spacing: 0.05em;
     opacity: 0;
     transition:0.5s;
     transform: translateY(35px);
-    position: absolute;
     color:var(--clr)
+    
 }
 #NavegacionBola ul li:hover a #Texto
 {
