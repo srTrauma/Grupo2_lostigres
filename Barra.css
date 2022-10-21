@@ -89,12 +89,14 @@ transform: translateY(10px);
 }
 #NavegacionBola img
 {   
-    height: 50px;
-    width: 50px;
+    height: 1.5em;
+    width: 1.5em;
+    top:2px;
     position:relative;
     border-radius: 1000%;
+    right: 20px;
     animation-name: MOVIMIENTO_POKEBALL;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-direction: alternate;
     animation-duration: 2.5s;
     
@@ -103,11 +105,11 @@ transform: translateY(10px);
 @keyframes MOVIMIENTO_POKEBALL{
     0%{
         transform: translateX(2500%);
-        
+        opacity: 0;
     }
     
     100%{
-        transform: translateX(-10px);
-       
+        transform: translateX(0px);
+       opacity: 1;
     }
 }
