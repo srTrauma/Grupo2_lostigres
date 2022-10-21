@@ -1,0 +1,15 @@
+#banner
+{
+    position: relative;
+    left:15%;
+    right:5%;
+    width: 1000px;
+    height: 70px; 
+    color:var(--clr);
+    background-repeat: no-repeat;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png);
+    background-size: contain;
+    background-attachment: fixed;
+    text-align: center;
+   z-index: 1;
+}
