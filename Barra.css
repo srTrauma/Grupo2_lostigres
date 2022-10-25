@@ -113,3 +113,19 @@ transform: translateY(10px);
        opacity: 1;
     }
 }
+#banner
+{
+    position: absolute;
+    top: 10em;
+    border: solid 5px cornflowerblue;
+
+}
+#Lista ul li
+{
+    display: inline;
+    color: #fff;
+    position: relative;
+    top:20%;
+    left:10em;
+
+}
