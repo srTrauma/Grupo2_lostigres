@@ -27,7 +27,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 40vh;
     background:var(--clr);
     font-family:sans-serif;
     margin: 0;
@@ -112,4 +112,42 @@ transform: translateY(10px);
         transform: translateX(0px);
        opacity: 1;
     }
+}
+#banner
+    {
+        position: absolute;
+        width: 50em;
+        height: 4em; 
+        color:white;
+        left:50%;
+        background-image: url(--clr);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 100000;
+        margin-left: 4.5em;
+        align-items: center;
+        border-radius: 10px;
+        opacity: 1;
+        border: 2px solid rgb(6, 129, 245);
+    }
+    
+#Encabezado_de_seccion
+{
+    left:4.5em;
+    color: #fff;
+    position: relative;
+    top:20em;
+}
+#lista_pokemons{
+    position: relative;
+    top:40em;
+    color:white;
+    left:4.5em;
+    text-decoration: none;
+    display: flex;
+}
+#lista_pokemons ul li
+{
+    list-style: none;
+    flex-direction: column;
 }
