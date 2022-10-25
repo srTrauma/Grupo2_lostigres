@@ -1,67 +1,114 @@
+
+	/*@font-face {
+		font-family:'Pokemon GB Font' ;
+		src: url();
+	}*/
+
+	@font-face {font-family:"Pokemon GB";src:url("/Pokemon_GB/Pokemon_GB.eot") format("eot"),url("/Pokemon_GB/Pokemon_GB.woff") format("woff"),url("/Pokemon_GB/Pokemon_GB.ttf") format("truetype"),url("/Pokemon_GB.svg#PokemonGB") format("svg");font-weight:normal;font-style:normal;}
+
+
 body{
 	font-family:sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #23242a;
-	
+    background:--clr;
+
     }
-    .box{
+	.pokedex{
+		background-image:url(https://clipground.com/images/pokedex-png-8.png) ;background-repeat: no-repeat;background-size: contain;; width: 700px;height: 500px;
+		align-items: center;
+		position: absolute;
+		top: 6em;
+		left: 25em;
+		font-family: 'Pokemon GB';
+	}
+	.login{
+		color: black;
+		position: absolute;
+		font-size: 150%;
+		left: 13.1em;
+		top: 6em;
+		text-transform:capitalize;
+	}
+	.usuario{
+		font-family: 'Pokemon GB';
+		color: black;
+		position: absolute;
+		font-size: 100%;
+		left: 14.5em;
+		top: 18em;
+		text-transform:capitalize;
+	}
+	.contraseña{
+		font-family: "Pokemon GB";
+		color: black;
+		position: absolute;
+		font-size: 100%;
+		left: 14.5em;
+		top: 22em;
+		text-transform:capitalize;
+	}
+	.usuario input
+	{
+	position: relative;
+	top: 2em;
+	width: 12em;
+	right: 10em;
+	height: 0.8em;
+	background-color: var(--clr);
+	color: red;
+	}
+	.contraseña input
+{
+	position: relative;
+	top: 2em;
+	right: 14.2em;
+	width: 12em;
+	height: 0.8em;
+	background-color: var(--clr);
+	color: red;
+}
+.pokedex #imagen_pokebola
+{
+	position: relative;
+	top :4px;
+	width: 20px;
+	height: 20px;
+}
+.pokedex #imagen_spiritomb{
+	position: relative;
+	top: 24px;
+	width: 40px;
+	height: 40px;
+}
+.pokedex#boton:hover
+{
+	transition-property: ;
+}
+    /*.box{
         position: relative;
         width: 380px;
         height: 420px;
-        background: #1c1c1c;
+        background: red;
         border-radius: 8px;
         overflow: hidden;
-		left: 175%;
+		left: 130%;
     }
-    .box::after{
-        content: '';
-        position: absolute;
-        top: -50%;
-        left:-50% ;
-        width: 320px;
-        height: 420px;
-        background:linear-gradient(0deg,transparent,#45f3ff,
-        transparent,#45f3ff) ;
-        transform-origin: bottom right;
-        animation: animate 6s linear infinite;
-    }
-    .box::before{
-        content: '';
-        position: absolute;
-        top: -50%;
-        left:-50% ;
-        width: 320px;
-        height: 420px;
-        background:linear-gradient(10deg,transparent,#45f3ff,
-        transparent,#45f3ff) ;
-        transform-origin: bottom right;
-        animation: animate 6s linear infinite;
-        animation-delay: -3s;
-    }
-    @keyframes animate{
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-
+    
     .form{
         position:absolute;
         inset: 2px;
         border-radius: 8px;
         background: #28292d;
         z-index: 10;
-		padding:50px 40px;
+		padding: 20px 40px;
 		display: flex;
 		flex-direction: column;
     }
 	.form h2{
-		color: #45f3ff;
+		color: #ff4545;
 		font-weight: 500;
 		text-align: center;
 		letter-spacing: 0.1em;
@@ -69,7 +116,7 @@ body{
 	.inputbox{
 		position: relative;
 		width: 300px;
-		margin-top: 35px;
+		margin-top: 25px;
 
 }
 
@@ -89,7 +136,7 @@ body{
 .inputbox span{
 	position: absolute;
 	left: 0;
-	padding: 20px 0px 10px;
+	padding: 5px 0px 10px;
 	font-size: 1em;
 	color: #8f8f8f;
 	pointer-events: none;
@@ -99,7 +146,7 @@ body{
 .inputbox input:valid ~ span,
 .inputbox input:focus ~ span
 {
-	color: #45f3ff;
+	color: #ff4545;
 	transform:translateX(0px) translateY(-34px);
 	font-size: 0.75em;
 }
@@ -109,7 +156,7 @@ body{
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: #45f3ff;
+	background: #ff4545;
 	border-radius: 4px;
 	transition: 0.5s;
 	pointer-events: none;
@@ -123,23 +170,23 @@ body{
 	justify-content: space-between;
 }
 .links a{
-	margin: 10px 0;
+	margin: 50px 0;
 	font-size: 0.75em;
 	color: #8f8f8f;
 	text-decoration: none;
 }
 .links a:hover,
 .links a:nth-child(2){
-	color: #45f3ff;
+	color: #ff4545;
 }
 input[type="submit"]
 {
 	border: none;
 	outline: none;
-	background: #45f3ff;
-	padding: 11px 25px;
+	background: #ff4545;
+	padding: 12px 25px;
 	width: 100px;
-	margin-top: 10px;
+	margin-top: 0px;
 	border-radius: 4px;
 	font-weight: 600;
 	cursor: pointer;
