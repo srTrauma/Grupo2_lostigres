@@ -8,7 +8,7 @@
     align-items: center;
     border-radius: 10px;
     top: 1cm;
-    left: 1cm;
+    left: 4.5em;
     background-image: url(https://imgs.search.brave.com/mOXOlmq7eL1cqL2ZogU079AcB4HLvcOLiqnDbzziaTk/rs:fit:714:260:1/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/dGh1bWJfYmFjay9m/aDI2MC9iYWNrZ3Jv/dW5kLzIwMTkwMjIx/L291cm1pZC9wbmd0/cmVlLWJsdWUtY3Jl/YXRpdmUtZ3JhZGll/bnQtZGVjb3JhdGlv/bi1pbWFnZV8xMTE3/NS5qcGc);
     background-size:cover;
     background-repeat:no-repeat;
@@ -86,4 +86,30 @@ body
 {
 opacity: 1;
 transform: translateY(10px);
+}
+#NavegacionBola img
+{   
+    height: 1.5em;
+    width: 1.5em;
+    top:2px;
+    position:relative;
+    border-radius: 1000%;
+    right: 20px;
+    animation-name: MOVIMIENTO_POKEBALL;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
+    
+    
+}
+@keyframes MOVIMIENTO_POKEBALL{
+    0%{
+        transform: translateX(2500%);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateX(0px);
+       opacity: 1;
+    }
 }
