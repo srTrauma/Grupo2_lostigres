@@ -122,10 +122,25 @@ transform: translateY(10px);
 }
 #Lista ul li
 {
-    display: inline;
+    list-style-type:none;
     color: #fff;
     position: relative;
     top:20%;
     left:10em;
 
 }
+#Lista #texto
+{
+    opacity: 0;
+    display: flex;
+}
+#Lista ul
+{
+    opacity: 1;
+} 
+#Lista ul:hover
+{
+    transform: translateY(-100px);
+    opacity: 1;
+
+} 
