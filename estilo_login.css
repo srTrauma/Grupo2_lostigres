@@ -47,6 +47,7 @@ body{
 	}
 	.usuario input
 	{
+	font-size: 0.8vmax;	
 	position: relative;
 	top: 1.5vmax;
 	width: 14vmax;
@@ -58,6 +59,7 @@ body{
 	}
 	.contraseña input
 {
+	font-size: 0.8vmax;
 	position: relative;
 	top: 1.5vmax;
 	right: 12.8vmax;
