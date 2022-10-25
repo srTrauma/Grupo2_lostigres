@@ -82,7 +82,10 @@ body{
 	height: 1.8vmax;
 	left: 0.9vmax;
 }
-
+/*.pokedex#boton:hover
+{
+	transition-property: ;
+}*/
     /*.box{
         position: relative;
         width: 380px;
