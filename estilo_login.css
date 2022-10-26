@@ -1,5 +1,5 @@
 
-	@font-face {font-family:"Pokemon GB";src:url("/Grupo2_lostigres/Pokemon_GB/Pokemon_GB.eot") format("eot"),url("/Grupo2_lostigres/Pokemon_GB/Pokemon_GB.woff") format("woff"),url("/Grupo2_lostigres/Pokemon_GB/Pokemon_GB.ttf") format("truetype"),url("/Pokemon_GB.svg#PokemonGB") format("svg");font-weight:normal;font-style:normal;}
+	@font-face {font-family:"Pokemon GB";src:url("/Pokemon_GB/Pokemon_GB.eot") format("eot"),url("/Pokemon_GB/Pokemon_GB.woff") format("woff"),url("/Pokemon_GB/Pokemon_GB.ttf") format("truetype"),url("/Pokemon_GB.svg#PokemonGB") format("svg");font-weight:normal;font-style:normal;}
 
 
 body{
