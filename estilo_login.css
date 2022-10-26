@@ -51,7 +51,7 @@ body{
 	position: relative;
 	top: 1.5vmax;
 	width: 14vmax;
-	right: 10vmax;
+	right: 9.6vmax;
 	height: 0.8vmax;
 	background-color: var(--clr);
 	color: white;
@@ -62,7 +62,7 @@ body{
 	font-size: 0.8vmax;
 	position: relative;
 	top: 1.5vmax;
-	right: 12.8vmax;
+	right: 12.4vmax;
 	width: 13.9vmax;
 	height: 0.8vmax;
 	background-color: var(--clr);
@@ -83,6 +83,41 @@ body{
 	width: 1.5vmax;
 	height: 1.8vmax;
 	left: 0.9vmax;
+}
+.correo a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: black;
+	position: absolute;
+	top: 26vmax;
+	left: 22.854vmax;
+}
+.contraseña2 a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: black;
+	position: absolute;
+	top: 28.5vmax;
+	left: 11vmax;
+}
+button{
+	position: absolute;
+	top: 24.5vmax;
+	left: 18.6vmax;
+	width: 4vmax;
+	height: 4vmax;
+	border-radius: 2vmax;
+}
+button img{
+	position: absolute;
+	top: 0.1vmax;
+	width: 4vmax;
+	right: 0.1vmax;
+}
+button a{
+	text-decoration: none;
+	font-family: "Pokemon GB";
+	text-transform: uppercase;
 }
 
 
