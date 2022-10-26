@@ -84,6 +84,26 @@ body{
 	height: 1.8vmax;
 	left: 0.9vmax;
 }
+button{
+	background-color: lightgreen;
+	position: relative;
+	top: 24.4vmax;
+	left: 40.45vmax;
+	height: 4vmax;
+	width: 4.1vmax;
+	border-radius: 2vmax;
+	cursor: pointer;
+	text-decoration: none;
+}
+button a{
+	font-family:"Pokemon GB";
+	text-decoration: none;
+	position: relative;
+	font-size: 1vmax;
+	right: 0.8vmax;
+	
+}
+
 /*.pokedex#boton:hover
 {
 	transition-property: ;
