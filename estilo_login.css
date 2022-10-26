@@ -51,7 +51,7 @@ body{
 	position: relative;
 	top: 1.5vmax;
 	width: 14vmax;
-	right: 10vmax;
+	right: 9.71vmax;
 	height: 0.8vmax;
 	background-color: var(--clr);
 	color: white;
@@ -62,7 +62,7 @@ body{
 	font-size: 0.8vmax;
 	position: relative;
 	top: 1.5vmax;
-	right: 12.8vmax;
+	right: 12.4vmax;
 	width: 13.9vmax;
 	height: 0.8vmax;
 	background-color: var(--clr);
@@ -85,7 +85,7 @@ body{
 	left: 0.9vmax;
 }
 button{
-	background-color: lightgreen;
+	background-color:  #e5431d;
 	position: relative;
 	top: 24.4vmax;
 	left: 40.45vmax;
@@ -97,11 +97,31 @@ button{
 }
 button a{
 	font-family:"Pokemon GB";
+	text-transform: uppercase;
 	text-decoration: none;
+	color: black;
 	position: relative;
-	font-size: 1vmax;
-	right: 0.8vmax;
-	
+	font-size: 0.7vmax;
+	right: 0.3vmax;
+}
+.correo a{
+	font-family:sans-serif;
+		text-decoration: none;
+		color:  black;
+		position: absolute;
+		font-size: 1vmax;
+		left: 21vmax;
+		top: 29.5vmax;
+		
+}
+.contraseña2 a{
+		font-family:sans-serif;
+		text-decoration: none;
+		color: black;
+		position: absolute;
+		font-size: 1vmax;
+		left: 18.9vmax;
+		top: 31vmax;
 }
 
 /*.pokedex#boton:hover
