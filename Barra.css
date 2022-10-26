@@ -30,7 +30,7 @@ body
     min-height: 40vh;
     background:var(--clr);
     font-family:sans-serif;
-    margin: 0;
+    margin: 1.5em;
     padding: 0;
     text-decoration: none;
 }
@@ -120,14 +120,14 @@ transform: translateY(10px);
     border: solid 5px cornflowerblue;
 
 }
+
 #Lista ul li
 {
     list-style-type:none;
     color: #fff;
-    position: relative;
-    top:15em;
-    left:10em;
-
+    position: absolute;
+    top:25em;
+    left:2em;
 }
 #Lista ul li #imagen
 {
@@ -147,6 +147,7 @@ transform: translateY(10px);
     left:80px;
     opacity: 0;
     transition: 1.0s;
+
 }
 #Lista ul li #counter
 {
@@ -155,38 +156,43 @@ transform: translateY(10px);
     position: absolute;
     opacity: 0;
     transition: 1.0s;
+  
 }
 #Lista ul li #counter_imagen
 {
-    position: absolute;
-    opacity: 0;
+    position: relative;
+    opacity: 1;
     transition: 1.0s;
-    left: -0px;
+    left: -110px;
+    width: 48px;
+    height: 18px;
 }
 /*#####################################Animaciones hover###############################################*/
-#Lista ul:hover li #imagen
+#Lista ul li:hover #imagen
 {
     transform: translateY(-100px);
 }
-#Lista ul:hover li #texto
+#Lista ul li:hover #texto
 {
     opacity: 1;
     transform: translateY(-75px)
 }
-#Lista ul:hover li #tipo
+#Lista ul li:hover #tipo
 {
     opacity: 1;
     transform: translateY(-75px);
     transform: translateX(-65px);
 }
-#Lista ul:hover li #counter
+#Lista ul li:hover #counter
 {
     opacity: 1;
     transform: translateY(-75px);
 }
-#Lista ul:hover li #counter_imagen
+#Lista ul li:hover #counter_imagen
 {
+
     opacity: 1;
-    transform: translateY(-75px);
-    transform: translateX(-65px);
+    transform: translateY(75px) translateX(65px);
+    
+    
 }
