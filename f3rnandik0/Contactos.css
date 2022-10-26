@@ -8,3 +8,23 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 300%;
+    padding-top: 0%;
+}
+
+.a{
+    font-size: 250%;
+    font-style: italic;
+    color: aqua;
+    position: absolute;
+    top: 64vmax;
+}
+
+.b{
+    font-size: 200%;
+    font-style: italic;
+    position: absolute;
+    top: 70vmax;
+}
+
