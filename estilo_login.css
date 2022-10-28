@@ -12,7 +12,9 @@ body{
 
     }
 	.pokedex{
-		background-image:url(https://clipground.com/images/pokedex-png-8.png) ;background-repeat: no-repeat;background-size: contain;; width: 70vmax;height: 35vmax;
+		background-image:url(https://clipground.com/images/pokedex-png-8.png) ;background-repeat: no-repeat;background-size: contain;
+		 width: 80vmax;
+		 height: 35vmax;
 		align-items: center;
 		position: fixed;
 		top: 9vmax;
@@ -47,7 +49,7 @@ body{
 	}
 	.usuario input
 	{
-	font-size: 0.8vmax;	
+	font-size: 0.9vmax;	
 	position: fixed;
 	top: 32vmax;
 	width: 13vmax;
@@ -87,18 +89,29 @@ body{
 .correo a{
 	text-decoration: none;
 	font-family: sans-serif;
+	font-size: 0.85vmax;
 	color: black;
 	position: fixed;
-	top: 38.5vmax;
-	left: 50.5vmax;
+	top: 37.7vmax;
+	left: 50.3vmax;
 }
 .contraseña2 a{
 	text-decoration: none;
 	font-family: sans-serif;
+	font-size: 0.85vmax;
 	color: black;
 	position: fixed;
-	top: 40vmax;
-	left: 48.7vmax;
+	top: 39vmax;
+	left: 48.5vmax;
+}
+.registrate a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 40.3vmax;
+	left: 55.8vmax;
 }
 .boton{
 	position: absolute;
@@ -110,9 +123,9 @@ body{
 }
 .boton img{
 	position: fixed;
-	top: 0.1vmax;
+	top: 33.4vmax;
 	width: 4vmax;
-	right: 0.1vmax;
+	left: 68.55vmax;
 }
 .boton a{
 	text-decoration: none;
