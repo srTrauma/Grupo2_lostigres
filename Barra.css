@@ -126,13 +126,14 @@ transform: translateY(10px);
     list-style-type:none;
     color: #fff;
     position: relative;
-    top:25em;
+    top:20em;
     left:2em;
 }
 #Lista ul li #imagen
 {
     display: flex;
  transition: 1.0s;
+ top:1em;
 }
 #Lista ul li #texto
 {
@@ -159,6 +160,52 @@ transform: translateY(10px);
   
 }
 #Lista ul li #counter_imagen
+{
+    position: relative;
+    opacity: 1;
+    transition: 1.0s;
+    left: -110px;
+    width: 48px;
+    height: 18px;
+}
+#Lista_FILA ul li
+{
+    position: relative;
+    top: 40em;
+    left: -62em;
+    list-style-type:none;
+    color: #fff;
+}
+#Lista_FILA ul li #imagen
+{
+    display: flex;
+ transition: 1.0s;
+}
+#Lista_FILA ul li #texto
+{
+    position: absolute;
+    left:20px;
+    opacity: 0;
+    transition: 1.0s;
+}
+#Lista_FILA ul li #tipo
+{
+    position: absolute;
+    left:80px;
+    opacity: 0;
+    transition: 1.0s;
+
+}
+#Lista_FILA ul li #counter
+{
+    display: flex;
+    left: 180px;
+    position: absolute;
+    opacity: 0;
+    transition: 1.0s;
+  
+}
+#Lista_FILA ul li #counter_imagen
 {
     position: relative;
     opacity: 1;
@@ -194,27 +241,27 @@ transform: translateY(10px);
     opacity: 1;
     transform: translateY(75px) translateX(65px);
 }
-#Lista2 ul li:hover #imagen
+#Lista_FILA ul li:hover #imagen
 {
     transform: translateY(-100px);
 }
-#Lista2 ul li:hover #texto
+#Lista_FILA ul li:hover #texto
 {
     opacity: 1;
     transform: translateY(-75px)
 }
-#Lista2 ul li:hover #tipo
+#Lista_FILA ul li:hover #tipo
 {
     opacity: 1;
     transform: translateY(-75px);
     transform: translateX(-65px);
 }
-#Lista2 ul li:hover #counter
+#Lista_FILA ul li:hover #counter
 {
     opacity: 1;
     transform: translateY(-75px);
 }
-#Lista2 ul li:hover #counter_imagen
+#Lista_FILA ul li:hover #counter_imagen
 {
 
     opacity: 1;
@@ -223,10 +270,3 @@ transform: translateY(10px);
        
 /*#####################################No Mas hoovers#################################################################################################*/
 
-#Lista2 ul li
-{
-    position: relative;
-    left: 1000px;
-    list-style-type:none;
-    color: #fff;
-}
