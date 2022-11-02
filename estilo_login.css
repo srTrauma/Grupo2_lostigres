@@ -1,7 +1,7 @@
 
-	@font-face {font-family:"Pokemon GB";src:url("/Pokemon_GB/Pokemon_GB.eot") format("eot"),url("/Pokemon_GB/Pokemon_GB.woff") format("woff"),url("/Pokemon_GB/Pokemon_GB.ttf") format("truetype"),url("/Pokemon_GB.svg#PokemonGB") format("svg");font-weight:normal;font-style:normal;}
+	@font-face {font-family:"Pokemon GB";src:url("/Pokemon_GB/Pokemon_GB.eot") format("eot"),url("/Pokemon_GB/Pokemon_GB.woff") format("woff"),url("/Pokemon_GB/") format("truetype"),url("/Pokemon_GB.svg#PokemonGB") format("svg");font-weight:normal;font-style:normal;}
 
-
+	
 body{
 	font-family:sans-serif;
     display: flex;
@@ -12,119 +12,127 @@ body{
 
     }
 	.pokedex{
-		background-image:url(https://clipground.com/images/pokedex-png-8.png) ;background-repeat: no-repeat;background-size: contain;; width: 70vmax;height: 35vmax;
+		background-image:url(https://clipground.com/images/pokedex-png-8.png) ;background-repeat: no-repeat;background-size: contain;
+		 width: 80vmax;
+		 height: 35vmax;
 		align-items: center;
-		position: absolute;
+		position: fixed;
 		top: 9vmax;
 		left: 28vmax;
 		font-family: 'Pokemon GB';
 	}
 	.login{
 		color: black;
-		position: absolute;
+		position: fixed;
 		font-size: 2.5vmax;
-		left: 18.5vmax;
-		top: 5vmax;
+		left: 46.3vmax;
+		top: 14vmax;
 		text-transform:uppercase;
 	}
 	.usuario{
 		font-family: 'Pokemon GB';
 		color: black;
-		position: absolute;
+		position: fixed;
 		font-size: 1vmax;
-		left: 16vmax;
-		top: 21vmax;
+		left: 46.2vmax;
+		top: 29.5vmax;
 		text-transform:capitalize;
 	}
 	.contraseña{
 		font-family: "Pokemon GB";
 		color: black;
-		position: absolute;
+		position: fixed;
 		font-size: 1vmax;
-		left: 15.5vmax;
-		top: 24vmax;
+		left: 46.2vmax;
+		top: 33.5vmax;
 		text-transform:capitalize;
 	}
 	.usuario input
 	{
-	font-size: 0.8vmax;	
-	position: relative;
-	top: 1.5vmax;
-	width: 14vmax;
-	right: 9.71vmax;
+	font-size: 0.9vmax;	
+	position: fixed;
+	top: 32vmax;
+	width: 13vmax;
+	left: 46.2vmax;
 	height: 0.8vmax;
 	background-color: var(--clr);
 	color: white;
 	z-index: 1;
-	border-radius: 0.5vmax;
 	}
 	.contraseña input
 {
 	font-size: 0.8vmax;
-	position: relative;
-	top: 1.5vmax;
-	right: 12.4vmax;
-	width: 13.9vmax;
+	position: fixed;
+	top: 36vmax;
+	left: 46.2vmax;
+	width: 13vmax;
 	height: 0.8vmax;
 	background-color: var(--clr);
 	color: white;
 	z-index: 1;
-	border-radius: 0.5vmax;
 }
 .pokedex #imagen_pokebola
 {
-	position: relative;
-	top :0.1vmax;
-	width: 1.2vmax;
-	height: 1.2vmax;
-	left: 0.5vmax;
+	position: fixed;
+	top: 30.5vmax;
+	width: 1.5vmax;
+	height: 1.5vmax;
+	left: 44.3vmax;
 }
 .pokedex #imagen_pikachu{
-	position: relative;
-	top: 0.5vmax;
-	width: 1.5vmax;
-	height: 1.8vmax;
-	left: 0.9vmax;
-}
-button{
-	background-color:  #e5431d;
-	position: relative;
-	top: 24.4vmax;
-	left: 40.45vmax;
-	height: 4vmax;
-	width: 4.1vmax;
-	border-radius: 2vmax;
-	cursor: pointer;
-	text-decoration: none;
-}
-button a{
-	font-family:"Pokemon GB";
-	text-transform: uppercase;
-	text-decoration: none;
-	color: black;
-	position: relative;
-	font-size: 0.7vmax;
-	right: 0.3vmax;
+	position: fixed;
+	top: 34.2vmax;
+	width: 2vmax;
+	height: 2vmax;
+	left: 44.3vmax;
 }
 .correo a{
-	font-family:sans-serif;
-		text-decoration: none;
-		color:  black;
-		position: absolute;
-		font-size: 1vmax;
-		left: 21vmax;
-		top: 29.5vmax;
-		
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 37.7vmax;
+	left: 50.3vmax;
 }
 .contraseña2 a{
-		font-family:sans-serif;
-		text-decoration: none;
-		color: black;
-		position: absolute;
-		font-size: 1vmax;
-		left: 18.9vmax;
-		top: 31vmax;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 39vmax;
+	left: 48.5vmax;
 }
+.registrate a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 40.3vmax;
+	left: 55.8vmax;
+}
+.boton{
+	position: absolute;
+	top: 24.5vmax;
+	left: 18.6vmax;
+	width: 4vmax;
+	height: 4vmax;
+	border-radius: 2vmax;
+}
+.boton img{
+	position: fixed;
+	top: 33.4vmax;
+	width: 4vmax;
+	left: 68.55vmax;
+}
+.boton a{
+	text-decoration: none;
+	font-family: "Pokemon GB";
+	text-transform: uppercase;
+}
+
 
 /*.pokedex#boton:hover
 {

@@ -31,7 +31,7 @@ body
     background:var(--clr);
     font-family:sans-serif;
     margin: 1.5em;
-    padding: 0;
+    padding: 1.5em;
     text-decoration: none;
 }
 #NavegacionBola ul li
@@ -125,13 +125,13 @@ transform: translateY(10px);
 {
     list-style-type:none;
     color: #fff;
-    position: absolute;
+    position: relative;
     top:25em;
     left:2em;
 }
 #Lista ul li #imagen
 {
- display:flex ;
+    display: flex;
  transition: 1.0s;
 }
 #Lista ul li #texto
