@@ -193,6 +193,40 @@ transform: translateY(10px);
 
     opacity: 1;
     transform: translateY(75px) translateX(65px);
-    
-    
+}
+#Lista2 ul li:hover #imagen
+{
+    transform: translateY(-100px);
+}
+#Lista2 ul li:hover #texto
+{
+    opacity: 1;
+    transform: translateY(-75px)
+}
+#Lista2 ul li:hover #tipo
+{
+    opacity: 1;
+    transform: translateY(-75px);
+    transform: translateX(-65px);
+}
+#Lista2 ul li:hover #counter
+{
+    opacity: 1;
+    transform: translateY(-75px);
+}
+#Lista2 ul li:hover #counter_imagen
+{
+
+    opacity: 1;
+    transform: translateY(75px) translateX(65px);
+}
+       
+/*#####################################No Mas hoovers#################################################################################################*/
+
+#Lista2 ul li
+{
+    position: relative;
+    left: 1000px;
+    list-style-type:none;
+    color: #fff;
 }
