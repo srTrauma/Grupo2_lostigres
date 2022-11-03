@@ -1,17 +1,18 @@
 #NavegacionBola{
-    width: 400px;
+    width: 100%;
     height: 70px;
     background: #fff;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    top: 1cm;
-    left: 4.5em;
-    background-image: url(https://imgs.search.brave.com/mOXOlmq7eL1cqL2ZogU079AcB4HLvcOLiqnDbzziaTk/rs:fit:714:260:1/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/dGh1bWJfYmFjay9m/aDI2MC9iYWNrZ3Jv/dW5kLzIwMTkwMjIx/L291cm1pZC9wbmd0/cmVlLWJsdWUtY3Jl/YXRpdmUtZ3JhZGll/bnQtZGVjb3JhdGlv/bi1pbWFnZV8xMTE3/NS5qcGc);
+    border-radius: 0px 0px 10px 10px;
+    top: 0cm;
+    left: 0cm;
+    
     background-size:cover;
     background-repeat:no-repeat;
+    z-index: 10;
 }
 #NavegacionBola ul
 {
@@ -89,37 +90,48 @@ transform: translateY(10px);
 }
 #NavegacionBola img
 {   
+    position: relative;
+    left: -47em;
     height: 1.5em;
     width: 1.5em;
     top:2px;
-    position:relative;
+    
     border-radius: 1000%;
-    right: 20px;
     animation-name: MOVIMIENTO_POKEBALL;
     animation-iteration-count: 1;
-    animation-direction: alternate;
+    animation-direction:alternate;
     animation-duration: 2.5s;
     
     
 }
 @keyframes MOVIMIENTO_POKEBALL{
     0%{
-        transform: translateX(2500%);
+        transform: translateX(250px);
         opacity: 0;
     }
-    
     100%{
         transform: translateX(0px);
-       opacity: 1;
+        opacity: 1;
     }
 }
 #banner
 {
+    
     position: absolute;
-    top: 10em;
-    border: solid 5px cornflowerblue;
+    width: 100em;
+    height: auto; 
+    color:white;
 
+    background-image: url(--clr);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 1;
+    border: 2px solid blue;
 }
+
+
 
 #Lista ul li
 {
