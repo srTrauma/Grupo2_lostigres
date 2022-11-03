@@ -1,7 +1,8 @@
+
 #NavegacionBola{
     width: 100%;
-    height: 70px;
-    background: #fff;
+    height: 5vmax;
+    background-color: crimson;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -9,7 +10,6 @@
     border-radius: 0px 0px 10px 10px;
     top: 0cm;
     left: 0cm;
-    
     background-size:cover;
     background-repeat:no-repeat;
     z-index: 10;
@@ -17,7 +17,7 @@
 #NavegacionBola ul
 {
     display: flex;
-    width: 80%;
+    width: 100vmax;
 }
 :root{
     --clr: #222327;
@@ -28,11 +28,9 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
     background:var(--clr);
     font-family:sans-serif;
-    margin: 1.5em;
-    padding: 1.5em;
+    margin: 1.5vmax;
     text-decoration: none;
 }
 #NavegacionBola ul li
@@ -91,7 +89,8 @@ transform: translateY(10px);
 #NavegacionBola img
 {   
     position: relative;
-    left: -47em;
+    top: 10000vmax;
+    left: -81vmax;
     height: 1.5em;
     width: 1.5em;
     top:2px;
@@ -106,7 +105,7 @@ transform: translateY(10px);
 }
 @keyframes MOVIMIENTO_POKEBALL{
     0%{
-        transform: translateX(250px);
+        transform: translateX(250vmax);
         opacity: 0;
     }
     100%{
@@ -118,17 +117,16 @@ transform: translateY(10px);
 {
     
     position: absolute;
-    width: 100em;
+    width: 90vmax;
     height: auto; 
     color:white;
-
     background-image: url(--clr);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
     border-radius: 10px;
     opacity: 1;
-    border: 2px solid blue;
+    border: 0px solid crimson;
 }
 
 
@@ -139,13 +137,13 @@ transform: translateY(10px);
     color: #fff;
     position: relative;
     top:20em;
-    left:2em;
+    left:11.75vmax;
 }
 #Lista ul li #imagen
 {
     display: flex;
  transition: 1.0s;
- top:1em;
+ top:1vmax;
 }
 #Lista ul li #texto
 {
@@ -182,9 +180,10 @@ transform: translateY(10px);
 }
 #Lista_FILA ul li
 {
+    width: 300px;
     position: relative;
-    top: 40em;
-    left: -62em;
+    top: 35vmax;
+    left: -50em;
     list-style-type:none;
     color: #fff;
 }
