@@ -18,13 +18,25 @@ h1 {
     font-style: italic;
     color: aqua;
     position: absolute;
-    top: 64vmax;
+    top: 65vmax;
 }
 
 .b{
     font-size: 200%;
-    font-style: italic;
     position: absolute;
     top: 70vmax;
 }
 
+.c{
+    font-size: 250%;
+    font-style: italic;
+    color: orangered;
+    position: absolute;
+    top: 90vmax;
+}
+
+.e{
+    font-size: 200%;
+    position: absolute;
+    top: 93vmax;
+}
