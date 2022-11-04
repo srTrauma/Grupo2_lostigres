@@ -93,7 +93,7 @@ body{
 	color: black;
 	position: fixed;
 	top: 37.7vmax;
-	left: 50.3vmax;
+	left: 50vmax;
 }
 .contraseña2 a{
 	text-decoration: none;
@@ -102,7 +102,7 @@ body{
 	color: black;
 	position: fixed;
 	top: 39vmax;
-	left: 48.5vmax;
+	left: 48vmax;
 }
 .registrate a{
 	text-decoration: none;
@@ -111,7 +111,7 @@ body{
 	color: black;
 	position: fixed;
 	top: 40.3vmax;
-	left: 55.8vmax;
+	left: 55.7vmax;
 }
 .boton{
 	position: absolute;
@@ -132,6 +132,31 @@ body{
 	font-family: "Pokemon GB";
 	text-transform: uppercase;
 }
+.articuno img{
+	position: fixed;
+	top: 8vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+.zapdos img{
+	position: fixed;
+	top: 16vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+.moltres img{
+	position: fixed;
+	top: 24vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+.mewtwo img{
+	position: fixed;
+	top: 32vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+
 
 
 /*.pokedex#boton:hover
