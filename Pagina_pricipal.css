@@ -117,20 +117,15 @@ transform: translateY(10px);
 {
     
     position: absolute;
-    width: 90vmax;
+    top: 2.37vmax;
+    left: -1.5vmax;
+    width: 99.1vmax;
     height: auto; 
     color:white;
-    background-image: url(--clr);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: crimson;
     z-index: -1;
-    border-radius: 10px;
-    opacity: 1;
-    border: 0px solid crimson;
+    border-radius: 0px 0px 100px 100px;
 }
-
-
-
 /*#Lista ul li
 {
     display: flex;
@@ -228,66 +223,6 @@ transform: translateY(10px);
     width: 48px;
     height: 18px;
 }*/
-/*#####################################Animaciones hover###############################################*/
-.Contenido #Lista1 ul li:hover #imagen
-{
-    transform: translateY(-100px);
-}
-#Lista1 ul li:hover #texto
-{
-    opacity: 1;
-    transform: translateY(-75px)
-}
-#Lista1 ul li:hover #tipo
-{
-    opacity: 1;
-    transform: translateY(-75px);
-    transform: translateX(-65px);
-}
-#Lista1 ul li:hover #counter
-{
-    opacity: 1;
-    transform: translateY(-75px);
-}
-#Lista1 ul li:hover #counter_imagen
-{
-
-    opacity: 1;
-    transform: translateY(75px) translateX(65px);
-}
-.Contenido section #Lista_FILA1 ul li:hover #imagen
-{
-    transform: translateY(-100px);
-}
-#Lista_FILA1 ul li:hover #texto
-{
-    opacity: 1;
-    transform: translateY(-75px)
-}
-#Lista_FILA1 ul li:hover #tipo
-{
-    opacity: 1;
-    transform: translateY(-75px);
-    transform: translateX(-65px);
-}
-#Lista_FILA1 ul li:hover #counter
-{
-    opacity: 1;
-    transform: translateY(-75px);
-}
- #Lista_FILA1 ul li:hover #counter_imagen
-{
-
-    opacity: 1;
-    transform: translateY(75px) translateX(65px);
-}
-
-
-
-       
-/*#####################################No Mas hoovers#################################################################################################*/
-
-
 /*LISTA1*/
 #Lista1{
     top:100vmax;
@@ -299,24 +234,27 @@ transform: translateY(10px);
 }
 #Lista1 ul li
 {
+    
     list-style: none;
 }
 #Lista1 ul li #imagen
 {
     display: flex;
- transition: 1.0s;
- top:1vmax;
+    transition: 1.0s;
+    top:1vmax;
 }
 #Lista1 ul li #texto
 {
-    position: absolute;
+    display: flex;
+    position: relative;
     left:20px;
     opacity: 0;
     transition: 1.0s;
 }
 #Lista1 ul li #tipo
 {
-    position: absolute;
+    display: flex;
+    position: relative;
     left:80px;
     opacity: 0;
     transition: 1.0s;
@@ -324,23 +262,26 @@ transform: translateY(10px);
 }
 #Lista1 ul li #counter
 {
+    transition-delay: 0.5s ;
     display: flex;
     left: 180px;
-    position: absolute;
+    position: relative;
     opacity: 0;
     transition: 1.0s;
   
 }
 #Lista1 ul li #counter_imagen
 {
+    transition-delay: 0.5s ;
+    display: flex;
     position: relative;
-    opacity: 1;
+    opacity: 0;
     transition: 1.0s;
     left: -110px;
     width: 48px;
     height: 18px;
 }
-
+/*LIISTA_FILA1*/
 #Lista_FILA1{
     top:150vmax;
     display: flex;
@@ -360,14 +301,14 @@ transform: translateY(10px);
 }
 #Lista_FILA1 ul li #texto
 {
-    position: absolute;
+    position: relative;
     left:20px;
     opacity: 0;
     transition: 1.0s;
 }
 #Lista_FILA1 ul li #tipo
 {
-    position: absolute;
+    position: relative;
     left:80px;
     opacity: 0;
     transition: 1.0s;
@@ -377,7 +318,7 @@ transform: translateY(10px);
 {
     display: flex;
     left: 180px;
-    position: absolute;
+    position: relative;
     opacity: 0;
     transition: 1.0s;
   
@@ -394,3 +335,58 @@ transform: translateY(10px);
 .Contenido{
     display: inline-block;
 }
+/*#####################################Animaciones hover###############################################*/
+.Contenido #Lista1 ul li:hover #imagen
+{
+    transform: translateY(-100px);
+}
+#Lista1 ul li:hover #texto
+{
+    opacity: 1;
+    transform: translateY(-75px)
+}
+#Lista1 ul li:hover #tipo
+{
+    opacity: 1;
+    transform: translateY(-75px)translateX(-65px);
+}
+#Lista1 ul li:hover #counter
+{
+    transition-delay: 0.1s ;
+    opacity: 1;
+    transform: translateY(-160px);
+}
+#Lista1 ul li:hover #counter_imagen
+{
+    transition-delay: 0.4s ;
+    opacity: 1;
+    transform: translateX(65px) translateY(70px);
+}
+.Contenido section #Lista_FILA1 ul li:hover #imagen
+{
+    transform: translateY(-100px);
+}
+#Lista_FILA1 ul li:hover #texto
+{
+    opacity: 1;
+    transform: translateY(-75px)
+}
+#Lista_FILA1 ul li:hover #tipo
+{
+    opacity: 1;
+    transform: translateY(-75px)translateX(-65px);
+}
+#Lista_FILA1 ul li:hover #counter
+{
+    opacity: 1;
+    transform: translateY(-75px);
+}
+ #Lista_FILA1 ul li:hover #counter_imagen
+{
+
+    opacity: 1;
+    transform: translateY(75px) translateX(65px);
+}
+/*#####################################No Mas hoovers#################################################################################################*/
+
+
