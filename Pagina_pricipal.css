@@ -113,6 +113,10 @@ transform: translateY(10px);
         opacity: 1;
     }
 }
+h1{
+    color: #fff;
+    text-align: center;
+}
 #banner
 {
     
