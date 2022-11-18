@@ -1,6 +1,11 @@
+*
+{
+    display: inline-block;
+}
+
 
 #NavegacionBola{
-    width: 100%;
+    width: auto;
     height: 5vmax;
     background-color: crimson;
     position: fixed;
@@ -24,13 +29,9 @@
 }
 body
 {
-    position: absolute;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin:0;
     background:var(--clr);
     font-family:sans-serif;
-    margin: 1.5vmax;
     text-decoration: none;
 }
 #NavegacionBola ul li
@@ -44,6 +45,7 @@ body
 #NavegacionBola ul li a
 {
     position: relative;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +92,7 @@ transform: translateY(10px);
 {   
     position: relative;
     top: 10000vmax;
-    left: -81vmax;
+    left: -83vmax;
     height: 1.5em;
     width: 1.5em;
     top:2px;
@@ -105,7 +107,7 @@ transform: translateY(10px);
 }
 @keyframes MOVIMIENTO_POKEBALL{
     0%{
-        transform: translateX(250vmax);
+        transform: translateX(100vmax);
         opacity: 0;
     }
     100%{
@@ -115,121 +117,63 @@ transform: translateY(10px);
 }
 h1{
     color: #fff;
-    text-align: center;
 }
 #banner
 {
-    
-    position: absolute;
-    top: 2.37vmax;
-    left: -1.5vmax;
-    width: 99.1vmax;
-    height: auto; 
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 2.3vmax;
+    width: 100%; 
     color:white;
     background-color: crimson;
     z-index: -1;
-    border-radius: 0px 0px 100px 100px;
+    border-radius: 0px 0px 80px 80px;
 }
-/*#Lista ul li
+#banner_1
 {
-    display: flex;
-    flex-direction: row;
-    list-style-type:none;
-    color: #fff;
-    position: static;
-    top:20em;
-    left:11.75vmax;
+    left: 25%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 5vmax;
+    bottom: 1vmax;
+    width: 50%; 
+    color:white;
+    background-color: crimson;
+    z-index: -1;
+    border-radius: 10px 10px 10px 10px;
 }
-#Lista ul li #imagen
+#banner_2
 {
-    display: flex;
- transition: 1.0s;
- top:1vmax;
+    left: 25%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 15vmax;
+    bottom: 1vmax;
+    width: 50%; 
+    color:white;
+    background-color: crimson;
+    z-index: -1;
+    border-radius: 10px 10px 10px 10px;
 }
-#Lista ul li #texto
+#texto_inicio
 {
-    position: absolute;
-    left:20px;
-    opacity: 0;
-    transition: 1.0s;
-}
-#Lista ul li #tipo
-{
-    position: absolute;
-    left:80px;
-    opacity: 0;
-    transition: 1.0s;
+
+    align-items: center;
+    text-align: center;
+    left: 5%;
+    margin-right: 5%;
+    position: relative;
+    top: 3.8vmax;
+    color:#fff;
 
 }
-#Lista ul li #counter
-{
-    display: flex;
-    left: 180px;
-    position: absolute;
-    opacity: 0;
-    transition: 1.0s;
-  
-}
-#Lista ul li #counter_imagen
-{
-    position: relative;
-    opacity: 1;
-    transition: 1.0s;
-    left: -110px;
-    width: 48px;
-    height: 18px;
-}
-#Lista_FILA ul li
-{
-    display: inline;
-    top: 40vmax;
-    left: 11.75vmax;
-    width: 300px;
-    position: absolute;
-    list-style-type:none;
-    color: #fff;
-}
-#Lista_FILA ul li #imagen
-{
-    display: flex;
- transition: 1.0s;
-}
-#Lista_FILA ul li #texto
-{
-    position: absolute;
-    left:20px;
-    opacity: 0;
-    transition: 1.0s;
-}
-#Lista_FILA ul li #tipo
-{
-    position: absolute;
-    left:80px;
-    opacity: 0;
-    transition: 1.0s;
-
-}
-#Lista_FILA ul li #counter
-{
-    display: flex;
-    left: 180px;
-    position: absolute;
-    opacity: 0;
-    transition: 1.0s;
-  
-}
-#Lista_FILA ul li #counter_imagen
-{
-    position: relative;
-    opacity: 1;
-    transition: 1.0s;
-    left: -110px;
-    width: 48px;
-    height: 18px;
-}*/
 /*LISTA1*/
 #Lista1{
-    top:100vmax;
+    left: 25%;
+    top:10vmax;
     color:#fff;
     display: flex;
     position: relative;
@@ -243,9 +187,10 @@ h1{
 }
 #Lista1 ul li #imagen
 {
+    width: 310px;
+    height: 160px;
     display: flex;
     transition: 1.0s;
-    top:1vmax;
 }
 #Lista1 ul li #texto
 {
@@ -287,7 +232,8 @@ h1{
 }
 /*LIISTA_FILA1*/
 #Lista_FILA1{
-    top:150vmax;
+    left: 25%;
+    top:15vmax;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -300,6 +246,8 @@ h1{
 }
 #Lista_FILA1 ul li #imagen
 {
+    width: 300px;
+    height: 168px;
     display: flex;
  transition: 1.0s;
 }
@@ -336,6 +284,61 @@ h1{
     width: 48px;
     height: 18px;
 }
+/*LIISTA_FILA2*/
+#Lista_FILA2{
+    left: 25%;
+    top:15vmax;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    text-decoration: none;
+    color: #fff;
+}
+#Lista_FILA2 ul li
+{
+    list-style: none;
+}
+#Lista_FILA2 ul li #imagen
+{
+    width: 300px;
+    height: 168px;
+    display: flex;
+ transition: 1.0s;
+}
+#Lista_FILA2 ul li #texto
+{
+    position: relative;
+    left:20px;
+    opacity: 0;
+    transition: 1.0s;
+}
+#Lista_FILA2 ul li #tipo
+{
+    position: relative;
+    left:80px;
+    opacity: 0;
+    transition: 1.0s;
+
+}
+#Lista_FILA2 ul li #counter
+{
+    display: flex;
+    left: 180px;
+    position: relative;
+    opacity: 0;
+    transition: 1.0s;
+  
+}
+#Lista_FILA2 ul li #counter_imagen
+{
+    position: relative;
+    opacity: 1;
+    transition: 1.0s;
+    left: -110px;
+    width: 48px;
+    height: 18px;
+}
+Lista_FILA1 mhanmvf
 .Contenido{
     display: inline-block;
 }
@@ -356,13 +359,13 @@ h1{
 }
 #Lista1 ul li:hover #counter
 {
-    transition-delay: 0.1s ;
+    
     opacity: 1;
     transform: translateY(-160px);
 }
 #Lista1 ul li:hover #counter_imagen
 {
-    transition-delay: 0.4s ;
+    
     opacity: 1;
     transform: translateX(65px) translateY(70px);
 }
@@ -373,22 +376,51 @@ h1{
 #Lista_FILA1 ul li:hover #texto
 {
     opacity: 1;
-    transform: translateY(-75px)
+    transform: translateY(-15px)
 }
 #Lista_FILA1 ul li:hover #tipo
 {
     opacity: 1;
-    transform: translateY(-75px)translateX(-65px);
+    transform: translateY(35px)translateX(-125px);
 }
 #Lista_FILA1 ul li:hover #counter
 {
+    
     opacity: 1;
-    transform: translateY(-75px);
+    transform: translateY(-85px);
 }
  #Lista_FILA1 ul li:hover #counter_imagen
 {
-
+    
     opacity: 1;
+    
+    transform: translateY(75px) translateX(65px);
+}
+.Contenido section #Lista_FILA2 ul li:hover #imagen
+{
+    transform: translateY(-100px);
+}
+#Lista_FILA2 ul li:hover #texto
+{
+    opacity: 1;
+    transform: translateY(-15px)
+}
+#Lista_FILA2 ul li:hover #tipo
+{
+    opacity: 1;
+    transform: translateY(35px)translateX(-125px);
+}
+#Lista_FILA2 ul li:hover #counter
+{
+    
+    opacity: 1;
+    transform: translateY(-85px);
+}
+ #Lista_FILA2 ul li:hover #counter_imagen
+{
+    
+    opacity: 1;
+    
     transform: translateY(75px) translateX(65px);
 }
 /*#####################################No Mas hoovers#################################################################################################*/
