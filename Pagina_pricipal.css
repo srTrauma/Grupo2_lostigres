@@ -184,6 +184,17 @@ h1{
     color:#fff;
 
 }
+#texto_inicio_2
+{
+    align-items: center;
+    text-align: center;
+    left: 25vmax;
+    margin-right: 55vmax;
+    position: relative;
+    top: 17vmax;
+    color:#fff;
+
+}
 /*LISTA1*/
 #Lista1{
     left: 22.5vmax;
@@ -382,24 +393,24 @@ h1{
 #Lista1 ul li:hover #texto
 {
     opacity: 1;
-    transform: translateY(-75px)
+    transform: translateY(-75px)translateX(-20px)
 }
 #Lista1 ul li:hover #tipo
 {
     opacity: 1;
-    transform: translateY(-75px)translateX(-65px);
+    transform: translateY(-75px)translateX(-77px);
 }
 #Lista1 ul li:hover #counter
 {
     
     opacity: 1;
-    transform: translateY(-160px);
+    transform: translateY(-160px)translateX(45px);
 }
 #Lista1 ul li:hover #counter_imagen
 {
     
     opacity: 1;
-    transform: translateX(65px) translateY(70px);
+    transform: translateX(35px) translateY(70px);
 }
 .Contenido section #Lista_FILA1 ul li:hover #imagen
 {
@@ -408,25 +419,25 @@ h1{
 #Lista_FILA1 ul li:hover #texto
 {
     opacity: 1;
-    transform: translateY(-15px)
+    transform: translateY(-15px)translateX(-20px)
 }
 #Lista_FILA1 ul li:hover #tipo
 {
     opacity: 1;
-    transform: translateY(35px)translateX(-125px);
+    transform: translateY(35px)translateX(-145px);
 }
 #Lista_FILA1 ul li:hover #counter
 {
     
     opacity: 1;
-    transform: translateY(-85px);
+    transform: translateY(-85px)translateX(40px);
 }
  #Lista_FILA1 ul li:hover #counter_imagen
 {
     
     opacity: 1;
     
-    transform: translateY(75px) translateX(65px);
+    transform: translateY(75px) translateX(40px);
 }
 .Contenido section #Lista_FILA2 ul li:hover #imagen
 {
@@ -435,26 +446,106 @@ h1{
 #Lista_FILA2 ul li:hover #texto
 {
     opacity: 1;
-    transform: translateY(-15px)
+    transform: translateY(-15px)translateX(-10px)
 }
 #Lista_FILA2 ul li:hover #tipo
 {
     opacity: 1;
-    transform: translateY(35px)translateX(-125px);
+    transform: translateY(35px)translateX(-135px);
 }
 #Lista_FILA2 ul li:hover #counter
 {
     
     opacity: 1;
-    transform: translateY(-85px);
+    transform: translateY(-85px)translateX(35px);
 }
  #Lista_FILA2 ul li:hover #counter_imagen
 {
     
     opacity: 1;
     
-    transform: translateY(75px) translateX(65px);
+    transform: translateY(75px) translateX(35px);
 }
 /*#####################################No Mas hoovers#################################################################################################*/
-
-
+section #objeto_1
+{
+    left: 10vmax;
+    top: 30vmax;
+}
+section #objeto_2
+{
+    left: 20vmax;
+    top: 30vmax;
+}
+section #objeto_3
+{
+    left: 30vmax;
+    top: 30vmax;
+}
+section #objeto_4
+{
+    
+    position:relative;
+    left: 10vmax;
+    top: 45vmax;
+}
+section #objeto_5
+{
+    position:relative;
+    left: 20vmax;
+    top: 45vmax;
+}
+section #objeto_6
+{
+    position:relative;
+    left: 30vmax;
+    top: 45vmax ;
+}
+section #objeto_7
+{
+    
+    position:relative;
+    left: 10vmax;
+    top: 60vmax;
+}
+section #objeto_8
+{
+    position:relative;
+    left: 20vmax;
+    top: 60vmax;
+}
+section #objeto_9
+{
+    position:relative;
+    left: 30vmax;
+    top: 60vmax ;
+}
+  scroll-container {
+    position: relative;
+    display:inline-block;
+    width: 350px;
+    height: 300px;
+    overflow-y: scroll;
+    scroll-behavior:auto;
+    left: 5vmax;
+  }
+  scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+#page-1
+{
+    background-color:crimson ;
+}
+#page-2
+{
+    background-color:#fff ;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    color:var(--clr) ;
+    font-size: 15px;
+}
