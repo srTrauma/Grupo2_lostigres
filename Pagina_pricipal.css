@@ -173,6 +173,20 @@ h1{
     z-index: -1;
     border-radius: 10px 10px 10px 10px;
 }
+#banner_3
+{
+    left: 22.5vmax;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 80vmax;
+    bottom: 1vmax;
+    width: 55vmax; 
+    color:white;
+    background-color: crimson;
+    z-index: -1;
+    border-radius: 10px 10px 10px 10px;
+}
 #texto_inicio
 {
     align-items: center;
@@ -537,11 +551,12 @@ section #objeto_9
   }
 #page-1
 {
+    display: block;
     background-color:crimson ;
 }
 #page-2
 {
-    background-color:#fff ;
+    background-color:rgb(218, 218, 218) ;
 }
 h3{
     display: flex;
