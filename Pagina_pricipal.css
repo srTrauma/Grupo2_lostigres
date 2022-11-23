@@ -290,7 +290,7 @@ h1{
 /*LIISTA_FILA1*/
 #Lista_FILA1{
     left: 22.5vmax;
-    top:15vmax;
+    top:10vmax;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -344,7 +344,7 @@ h1{
 /*LIISTA_FILA2*/
 #Lista_FILA2{
     left: 22.5vmax;
-    top:15vmax;
+    top:10vmax;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -569,13 +569,74 @@ section #Texto_Objetos{
     background-color:rgb(218, 218, 218) ;
 }
 h3{
+
     display: flex;
     flex-direction: column;
     color:var(--clr) ;
     font-size: 15px;
 }
 #Brock{
+    left: 15%;
+    position: relative;
+    top :90vmax;
+    margin-right: 65%;
+}
+#misty{
+
+    left: 15%;
     position: relative;
     top :100vmax;
-    left: 10vmax;
+    margin-right: 65%;
+}
+#LT_Surge{
+
+    left: 15%;
+    position: relative;
+    top :110vmax;
+    margin-right: 65%;
+}
+#Erika{
+
+    left: 15%;
+    position: relative;
+    top :120vmax;
+    margin-right: 65%;
+}
+#Koga{
+
+    left: 15%;
+    position: relative;
+    top :130vmax;
+    margin-right: 65%;
+}
+#Sabrina{
+
+    left: 15%;
+    position: relative;
+    top :140vmax;
+    margin-right: 65%;
+}
+#Blaine{
+
+    left: 15%;
+    position: relative;
+    top :150vmax;
+    margin-right: 65%;
+}
+#Giovanni{
+
+    left: 15%;
+    position: relative;
+    top :160vmax;
+    margin-right: 65%;
+}
+h4{
+
+    color: #fff;
+    font-size: 150%;
+}
+#Texto_descripciones{
+
+    left: 15vmax;
+    color: #fff;
 }
