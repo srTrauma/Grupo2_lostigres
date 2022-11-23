@@ -486,6 +486,7 @@ section #objeto_1
     left: 10vmax;
     top: 30vmax;
 }
+
 section #objeto_2
 {
     left: 20vmax;
@@ -553,6 +554,15 @@ section #objeto_9
 {
     display: block;
     background-color:crimson ;
+    
+}
+section #Imagen_objeto
+{
+    padding-left: 5vmax;
+}
+section #Texto_Objetos{
+    padding-left: 6vmax;
+    
 }
 #page-2
 {
@@ -563,4 +573,9 @@ h3{
     flex-direction: column;
     color:var(--clr) ;
     font-size: 15px;
+}
+#Brock{
+    position: relative;
+    top :100vmax;
+    left: 10vmax;
 }
