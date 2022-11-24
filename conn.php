@@ -1,11 +1,39 @@
 <?php
-$conn= mysqli_connect("localhost","root","","users");
 
-$username=$_POST["username"];
-$password=$_POST["password"];
+//Nos conectamos
+
+$conn = mysqli_connect("localhost", "root", "", "users");
+if($conn){
+    echo("hola");
+}
+
+//Comprobamos la conexión
+if($conn === true) {
+    console.log("holi");
+}
+
+if($conn === false) {
+    die("ERROR: No se pudo conectar". mysqli_connect_error());
+}
+
+//Tomamos los valores del form
+
+$username = $_POST ["username"];
+$password = $_POST["password"];
 
 
-$sql="INSERT INTO `usuarios`(`Username`, `contraseña`) VALUES ('$username','$password');";
-$rs=mysqli_query($conn,$sql);
+echo($username);
+echo($password);
+
+
+
+$sql = "INSERT INTO 'users'('username', 'password') VALUES ('$username','$password');";
+$rs = mysqli_query($conn, $sql);
+if($sql === true) {
+    console.log("holi");
+}
+
+header('Location: postlogin.html');
+exit;
 
 ?>
