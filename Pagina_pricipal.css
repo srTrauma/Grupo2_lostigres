@@ -705,3 +705,30 @@ script{
     left: 19%;
 
 }
+#Boton_lista{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 25vmax;
+    left: 42.5vmax;
+    margin-bottom: 1vmax;
+    z-index: 3;
+    border: 2px solid crimson;
+    border-radius:10px ;
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+}
+#Boton_lista   a{
+    text-decoration: none;
+    color: var(--clr);
+}
+#Tablita{
+ 
+    color: #222327;
+    position: relative;
+    display: flex;
+    top: 10vmax;
+    flex-direction: row;
+    border: 0px solid yellow;
+}

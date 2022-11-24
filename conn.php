@@ -27,10 +27,10 @@ echo($password);
 
 
 
-$sql = "INSERT INTO 'users'('username', 'password') VALUES ('$username','$password');";
+$sql = "INSERT INTO `users`(`username`, `password`) VALUES ('$username','$password')";
 $rs = mysqli_query($conn, $sql);
 if($sql === true) {
-    console.log("holi");
+    echo("holi");
 }
 
 header('Location: postlogin.html');
