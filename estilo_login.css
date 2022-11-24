@@ -1,0 +1,273 @@
+
+	@font-face {font-family:"Pokemon GB";src:url("/Pokemon_GB/Pokemon_GB.eot") format("eot"),url("/Pokemon_GB/Pokemon_GB.woff") format("woff"),url("/Pokemon_GB/Pokemon_GB.ttf") format("truetype"),url("/Pokemon_GB.svg#PokemonGB") format("svg");font-weight:normal;font-style:normal;}
+
+	
+body{
+	font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vmax;
+    background:--clr;
+	overflow: hidden;
+    }
+	.pokedex{
+		background-image:url(https://clipground.com/images/pokedex-png-8.png) ;background-repeat: no-repeat;background-size: contain;
+		 width: 80vmax;
+		 height: 35vmax;
+		align-items: center;
+		position: fixed;
+		top: 9vmax;
+		left: 28vmax;
+		font-family: 'Pokemon GB';
+	}
+	.login{
+		color: black;
+		position: fixed;
+		font-size: 2.5vmax;
+		left: 46.3vmax;
+		top: 14vmax;
+		text-transform:uppercase;
+	}
+	.usuario{
+		font-family: 'Pokemon GB';
+		color: black;
+		position: fixed;
+		font-size: 1vmax;
+		left: 46.2vmax;
+		top: 29.5vmax;
+		text-transform:capitalize;
+	}
+	.contraseña{
+		font-family: "Pokemon GB";
+		color: black;
+		position: fixed;
+		font-size: 1vmax;
+		left: 46.2vmax;
+		top: 33.5vmax;
+		text-transform:capitalize;
+	}
+	.usuario input
+	{
+	font-size: 0.9vmax;	
+	position: fixed;
+	top: 32vmax;
+	width: 13vmax;
+	left: 46.2vmax;
+	height: 0.8vmax;
+	background-color: var(--clr);
+	color: white;
+	z-index: 1;
+	}
+	.contraseña input
+{
+	font-size: 0.8vmax;
+	position: fixed;
+	top: 36vmax;
+	left: 46.2vmax;
+	width: 13vmax;
+	height: 0.8vmax;
+	background-color: var(--clr);
+	color: white;
+	z-index: 1;
+}
+.pokedex #imagen_pokebola
+{
+	position: fixed;
+	top: 30.5vmax;
+	width: 1.5vmax;
+	height: 1.5vmax;
+	left: 44.3vmax;
+}
+.pokedex #imagen_pikachu{
+	position: fixed;
+	top: 34.2vmax;
+	width: 2vmax;
+	height: 2vmax;
+	left: 44.3vmax;
+}
+.correo a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 37.7vmax;
+	left: 50vmax;
+}
+.contraseña2 a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 39vmax;
+	left: 48vmax;
+}
+.registrate a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.85vmax;
+	color: black;
+	position: fixed;
+	top: 40.3vmax;
+	left: 55.7vmax;
+}
+.boton{
+	position: absolute;
+	top: 24.5vmax;
+	left: 18.6vmax;
+	width: 4vmax;
+	height: 4vmax;
+	border-radius: 2vmax;
+}
+.boton img{
+	position: fixed;
+	top: 33.4vmax;
+	width: 4vmax;
+	left: 68.55vmax;
+}
+.boton a{
+	text-decoration: none;
+	font-family: "Pokemon GB";
+	text-transform: uppercase;
+}
+.articuno img{
+	position: fixed;
+	top: 8vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+.zapdos img{
+	position: fixed;
+	top: 16vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+.moltres img{
+	position: fixed;
+	top: 24vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+.mewtwo img{
+	position: fixed;
+	top: 32vmax;
+	width: 10vmax;
+	left: 1vmax;
+}
+
+
+
+/*.pokedex#boton:hover
+{
+	transition-property: ;
+}*/
+    /*.box{
+        position: relative;
+        width: 380px;
+        height: 420px;
+        background: red;
+        border-radius: 8px;
+        overflow: hidden;
+		left: 130%;
+    }
+    
+    .form{
+        position:absolute;
+        inset: 2px;
+        border-radius: 8px;
+        background: #28292d;
+        z-index: 10;
+		padding: 20px 40px;
+		display: flex;
+		flex-direction: column;
+    }
+	.form h2{
+		color: #ff4545;
+		font-weight: 500;
+		text-align: center;
+		letter-spacing: 0.1em;
+	}
+	.inputbox{
+		position: relative;
+		width: 300px;
+		margin-top: 25px;
+
+}
+
+.inputbox input{
+	position: relative;
+	width: 100%;
+	padding: 20px 10px 10px;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #23242a;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	z-index: 10;
+}
+
+.inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0px 10px;
+	font-size: 1em;
+	color: #8f8f8f;
+	pointer-events: none;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span
+{
+	color: #ff4545;
+	transform:translateX(0px) translateY(-34px);
+	font-size: 0.75em;
+}
+.inputbox i{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #ff4545;
+	border-radius: 4px;
+	transition: 0.5s;
+	pointer-events: none;
+}
+.inputbox input:valid ~ i,
+.inputbox input:focus ~ i{
+  height: 44px;
+}
+.links{
+	display: flex;
+	justify-content: space-between;
+}
+.links a{
+	margin: 50px 0;
+	font-size: 0.75em;
+	color: #8f8f8f;
+	text-decoration: none;
+}
+.links a:hover,
+.links a:nth-child(2){
+	color: #ff4545;
+}
+input[type="submit"]
+{
+	border: none;
+	outline: none;
+	background: #ff4545;
+	padding: 12px 25px;
+	width: 100px;
+	margin-top: 0px;
+	border-radius: 4px;
+	font-weight: 600;
+	cursor: pointer;
+}
+input[type="submit"]:active
+{
+	opacity: 0.8;
+}

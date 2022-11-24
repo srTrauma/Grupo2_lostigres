@@ -1,0 +1,189 @@
+body{
+    background-color: #222327;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+#NavegacionBola ul li a #Icono
+{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 6.944444444444444vh;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color:var(--clr)
+}
+
+
+h1 {
+    font-size: 400%;   
+    padding-top: 0%;
+    background: linear-gradient(to left,
+            violet,
+            purple,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.Titulo1{
+    font-size: 300%;
+    font-style: italic;
+    color: aqua;
+    position: absolute;
+    top: 65vmax;
+}
+
+.a{
+    font-size: 200%;
+    position: absolute;
+    top: 70vmax;
+}
+
+.Titulo2{
+    font-size: 300%;
+    font-style: italic;
+    color: orangered;
+    position: absolute;
+    top: 85vmax;
+}
+
+.b{
+    font-size: 200%;
+    position: absolute;
+    top: 90vmax;
+}
+
+.c{
+    font-size: 200%;
+    position: absolute;
+    top: 110vmax;
+}
+.Titulo3{
+    font-size: 300%;
+    font-style: italic;
+    color: rgb(0, 192, 0);
+    position: absolute;
+    top: 105vmax;
+}
+#contenedor1{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+}
+
+#contenedor2{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    position: absolute;
+    top: 80vmax;
+}
+
+#contenedor3{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    position: absolute;
+    top: 100vmax;
+}
+#NavegacionBola{
+    width: auto;
+    height: 5vmax;
+    background-color: crimson;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    top: 0cm;
+    left: 0cm;
+    background-size:cover;
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+#NavegacionBola ul
+{
+    display: flex;
+    width: 100vmax;
+}
+:root{
+    --clr: #222327;
+}
+
+#NavegacionBola ul li
+{
+    position: relative;
+    list-style: none;
+    width: 6.481481481481481vh;
+    height: 6.481481481481481vh;
+    z-index: 1;
+}
+#NavegacionBola ul li a
+{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+#NavegacionBola ul li a #Icono
+{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 6.944444444444444vh;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color:var(--clr)
+}
+#NavegacionBola ul li:hover a #Icono
+{
+    transform:translateY(-1.8518518518518516vh)
+}
+#NavegacionBola ul li a #Texto
+{
+   
+    position: absolute;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    opacity: 0;
+    transition:0.5s;
+    transform: translateY(3.2407407407407405vh);
+    color:var(--clr)
+    
+}
+#NavegacionBola ul li:hover a #Texto
+{
+opacity: 1;
+transform: translateY(0.9259259259259258vh);
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 1px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--clr); 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: crimson;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
