@@ -1,0 +1,87 @@
+*{
+    background-color: #222327;
+}
+
+*{
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 400%;   
+    padding-top: 0%;
+    background: linear-gradient(to left,
+            violet,
+            purple,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.Titulo1{
+    font-size: 300%;
+    font-style: italic;
+    color: aqua;
+    position: absolute;
+    top: 65vmax;
+}
+
+.a{
+    font-size: 200%;
+    position: absolute;
+    top: 70vmax;
+}
+
+.Titulo2{
+    font-size: 300%;
+    font-style: italic;
+    color: orangered;
+    position: absolute;
+    top: 85vmax;
+}
+
+.b{
+    font-size: 200%;
+    position: absolute;
+    top: 90vmax;
+}
+
+.c{
+    font-size: 200%;
+    position: absolute;
+    top: 110vmax;
+}
+.Titulo3{
+    font-size: 300%;
+    font-style: italic;
+    color: rgb(0, 192, 0);
+    position: absolute;
+    top: 105vmax;
+}
+#contenedor1{
+    width: 1864px;
+    height: 50px;
+    background-color: crimson;
+}
+
+#contenedor2{
+    width: 1864px;
+    height: 50px;
+    background-color: crimson;
+    position: absolute;
+    top: 80vmax;
+}
+
+#contenedor3{
+    width: 1864px;
+    height: 50px;
+    background-color: crimson;
+    position: absolute;
+    top: 100vmax;
+}
